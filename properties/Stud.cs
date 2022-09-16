@@ -13,13 +13,15 @@ namespace properties
         private string name;
         private decimal per;
 
+        //auto implimented property:
+
         //public int Id { get;set; }
         //public int Rollno { get;set; }
 
         //public string Name { get; set; }
 
         //public decimal Per { get; set; }
-
+      
         public int Id
         {
             get { return id; }
