@@ -10,12 +10,16 @@ namespace properties
     {
         static void Main(string[] args)
         {
+            //object initializer stntax
+            Stud s2 = new Stud { Id = 2, Rollno = 12, Name = "dipu", Per = 85 };
+            Console.WriteLine($"  second stud detail:\n Id{s2.Id}\n {s2.Rollno}\n {s2.Name}\n {s2.Per}");
+
             Stud s1 = new Stud();
             s1.Id = 1;
             s1.Rollno = 11;
             s1.Name = "sam";
             s1.Per = 80;
-            Console.WriteLine($"Id{s1.Id}\n {s1.Rollno}\n {s1.Name}\n  {s1.Per}");
+            Console.WriteLine($" first student details:\n Id{s1.Id}\n {s1.Rollno}\n {s1.Name}\n {s1.Per}");
         }
     }
 }
