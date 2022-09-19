@@ -10,12 +10,18 @@ namespace properties
     {
         static void Main(string[] args)
         {
+            //Circle c1 = new Circle(3);
+            //c1.Area();
+            //Console.WriteLine(c1);
+            Rectangle r1 = new Rectangle(6,3);
+            r1.Area();
+            Console.WriteLine(r1);
 
             //method of overloading:
-            Calculation c1= new Calculation();
-            Console.WriteLine(c1.Subtraction(70,40,10));
-            Console.WriteLine(c1.Subtraction(80,40.5));
-            Console.WriteLine(c1.Subtraction(100,50));
+            //Calculation c1= new Calculation();
+            //Console.WriteLine(c1.Subtraction(70,40,10));
+            //Console.WriteLine(c1.Subtraction(80,40.5));
+            //Console.WriteLine(c1.Subtraction(100,50));
 
 
             ////object initializer stntax
