@@ -10,9 +10,9 @@ namespace properties
     {
         static void Main(string[] args)
         {
-            //Circle c1 = new Circle(3);
-            //c1.Area();
-            //Console.WriteLine(c1);
+            Circle c1 = new Circle(3);
+            c1.Area();
+            Console.WriteLine(c1);
 
             //Rectangle r1 = new Rectangle(6,3);
             //r1.Area();
@@ -26,8 +26,8 @@ namespace properties
 
 
             ////object initializer stntax
-            Stud s2 = new Stud { Id = 2, Rollno = 12, Name = "dipu", Per = 85 };
-            Console.WriteLine($"  second stud detail:\n Id{s2.Id}\n {s2.Rollno}\n {s2.Name}\n {s2.Per}");
+            //Stud s2 = new Stud { Id = 2, Rollno = 12, Name = "dipu", Per = 85 };
+            //Console.WriteLine($"  second stud detail:\n Id{s2.Id}\n {s2.Rollno}\n {s2.Name}\n {s2.Per}");
 
             //Stud s1 = new Stud();
             //s1.Id = 1;
